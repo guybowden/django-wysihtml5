@@ -172,7 +172,7 @@ class Wysihtml5TextareaWidget(AdminTextareaWidget):
             js_widget = self.render_js_delay_widget(wid, pos)
         else:
             js_widget = self.render_js_init_widget(wid) 
-            return mark_safe('<div style="display:inline-block">' +
+            return mark_safe('<div>' +
                          toolbar_widget + 
                          textarea_widget + 
                          '</div>' +
